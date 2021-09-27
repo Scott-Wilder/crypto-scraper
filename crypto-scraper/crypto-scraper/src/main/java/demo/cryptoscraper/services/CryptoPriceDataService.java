@@ -18,7 +18,7 @@ import java.util.Map;
 
 @Service
 public class CryptoPriceDataService {
-    private static String apiKey = "6cc60e0a-e429-44dc-9041-e7d985d9799f";
+    private static String apiKey = "";
     private static String CRYPTO_PRICE_URL = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?symbol=BTC,ETH";
     @PostConstruct
         public void fetchPriceData() throws IOException, InterruptedException {
